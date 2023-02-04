@@ -8,6 +8,7 @@ public class Car {
         this.price = price;
     }
 
+    // get attributes
     public String getModel() {
         return this.model;
     }
@@ -16,6 +17,7 @@ public class Car {
         return this.price;
     }
 
+    // functionalities
     public void start() {
         System.out.println("The car started");
     }
@@ -30,7 +32,7 @@ public class Car {
 
     }
 
-
+    // toString = strukturer/returnerer objekter som string
     @Override
     public String toString() {
         return "Car {" +
